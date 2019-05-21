@@ -1,0 +1,25 @@
+{
+  "name": "@geniemouse/prettier-config",
+  "version": "1.0.0",
+  "description": "Preferred Prettier configuration settings for GenieMouse projects.",
+  "main": "index.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geniemouse/prettier-config.git"
+  },
+  "keywords": [
+    "config",
+    "configuration",
+    "lint",
+    "prettier",
+    "prettier-config",
+    "prettierrc",
+    "style"
+  ],
+  "author": "GenieMouse <admin@geniemouse.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geniemouse/prettier-config/issues"
+  },
+  "homepage": "https://github.com/geniemouse/prettier-config#readme"
+}
