@@ -1,28 +1,47 @@
 # `@geniemouse/prettier-config`
 
-Preferred [Prettier](https://prettier.io) configuration settings for GenieMouse projects.
+Keep project code formatting consistent across projects with [Prettier] and this base configuration.
 
-These settings can be individually overridden by those in a [Prettier configuration file](https://prettier.io/docs/en/configuration.html) in the project root directory.
+## Installation
 
-## Usage
+1. [Install Prettier] locally:
 
-### Install package
-
-**npm:**
 ```shell
-npm install --save-dev @geniemouse/prettier-config
+# Using npm:
+npm install --save-dev --save-exact prettier
+
+# Using yarn:
+yarn add prettier --dev --exact
 ```
-**yarn:**
+
+2. Install the _GenieMouse_ Prettier configuration package locally:
+
 ```shell
+# Using npm:
+npm install --save-dev @geniemouse/prettier-config
+
+# Using yarn:
 yarn add --dev @geniemouse/prettier-config
 ```
 
-### Add package reference to `package.json`
+## Configuration
+
+Reference the configuration package in your project's `package.json` file:
 
 ```jsonc
 {
-  // ...
-  "prettier": "@geniemouse/prettier-config"
-  // ...
+    // ...
+    "prettier": "@geniemouse/prettier-config"
+    // ...
 }
 ```
+
+These imported settings can be overridden by a [Prettier configuration file] added to your project root directory.
+
+<!-- LINK REFERENCES -->
+
+[prettier]: https://prettier.io
+[install prettier]: https://prettier.io/docs/en/install.html
+[prettier configuration file]: https://prettier.io/docs/en/configuration.html
+
+<!-- end: LINK REFERENCES -->
