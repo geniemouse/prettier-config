@@ -1,0 +1,10 @@
+# Items to keep out of NPM package
+# ================================
+# Note: Some common files & directories are left out by default, so no need to add them here.
+# E.g.: .git, npm-debug.log, node_modules/, .DS_Store, etc.
+#
+# For more information:
+# -- https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+*.md
+*.log
