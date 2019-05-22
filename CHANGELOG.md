@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.2 (2019-05-22)
+
+-   Bump version number after various CHANGLEOG link experiments.
+
 ## 1.1.1 (2019-05-22)
 
 -   [c5d7732](https://github.com/geniemouse/prettier-config/commit/c5d7732) Add .stylelintrc filename to overrides
