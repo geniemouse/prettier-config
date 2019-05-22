@@ -2,7 +2,7 @@
 
 ## 1.1.1 (2019-05-22)
 
--   [c5d7732](https://github.com/geniemouse/prettier-config/commit/c5d7732) Add .stylelintrc filename to overrides
+-   [c5d7732](/geniemouse/prettier-config/commit/c5d7732) Add .stylelintrc filename to overrides
 
 ## 1.1.0 (2019-05-22)
 
