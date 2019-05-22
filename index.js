@@ -31,7 +31,7 @@ module.exports = {
     // Overriding configurations on a per file/file-type basis
     overrides: [
         {
-            files: [".eslintrc", ".htmllintrc", ".prettierrc", "*.json"],
+            files: [".eslintrc", ".htmllintrc", ".prettierrc", ".stylelintrc", "*.json"],
             options: {
                 parser: "json",
                 requirePragma: false,
