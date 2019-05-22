@@ -1,8 +1,8 @@
 {
   "name": "@geniemouse/prettier-config",
   "version": "1.0.0",
-  "description": "Preferred Prettier configuration settings for GenieMouse projects.",
-  "main": "index.json",
+  "description": "Shared Prettier configuration settings",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/geniemouse/prettier-config.git"
@@ -16,7 +16,11 @@
     "prettierrc",
     "style"
   ],
-  "author": "GenieMouse <admin@geniemouse.com>",
+  "author": {
+    "name": "Lucy Barker",
+    "email": "admin@geniemouse.com",
+    "url": "https://geniemouse.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/geniemouse/prettier-config/issues"
