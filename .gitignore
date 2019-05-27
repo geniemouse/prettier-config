@@ -1,0 +1,15 @@
+# Git ignore file
+# ===============
+# @NOTE:
+# NPM uses this .gitignore file, unless overruled by the presence of an .npmignore file
+# -- https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+# @ALSO:
+# `package.json` includes the "files" key; whitelist what is to be included in the package
+# -- https://docs.npmjs.com/files/package.json#files
+
+*.log
+
+coverage/
+node_modules/
+
+.DS_Store
