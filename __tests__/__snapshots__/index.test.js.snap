@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@geniemouse/prettier-config: matches the expected output 1`] = `
+Object {
+  "$schema": "http://json.schemastore.org/prettierrc",
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "jsxBracketSameLine": true,
+  "jsxSingleQuote": false,
+  "overrides": Array [
+    Object {
+      "files": Array [
+        ".*rc",
+        "package.json",
+      ],
+      "options": Object {
+        "parser": "json-stringify",
+        "requirePragma": false,
+        "tabWidth": 2,
+        "trailingComma": "none",
+      },
+    },
+    Object {
+      "excludeFiles": Array [
+        ".*rc",
+        "package.json",
+      ],
+      "files": Array [
+        "*.json",
+      ],
+      "options": Object {
+        "parser": "json",
+        "requirePragma": false,
+        "tabWidth": 2,
+        "trailingComma": "none",
+      },
+    },
+  ],
+  "printWidth": 120,
+  "proseWrap": "preserve",
+  "quoteProps": "consistent",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 4,
+  "trailingComma": "none",
+  "useTabs": false,
+}
+`;

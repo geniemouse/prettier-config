@@ -3,10 +3,19 @@
   "version": "1.1.2",
   "description": "Shared Prettier configuration settings",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint ./",
+    "test": "jest ./",
+    "test:coverage": "jest ./ --coverage",
+    "test:watch": "jest ./ --watchAll"
+  },
   "files": [
     "index.js"
   ],
+  "jest": {
+    "verbose": false,
+    "collectCoverage": false
+  },
   "keywords": [
     "config",
     "configuration",
@@ -22,6 +31,18 @@
     "url": "https://geniemouse.com"
   },
   "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1"
+  },
+  "peerDependencies": {
+    "prettier": "^1.17.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/geniemouse/prettier-config.git"
