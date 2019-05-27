@@ -1,3 +1,11 @@
+<!-- MarkdownTOC levels="2,3,4" -->
+
+1. [Installation](#installation)
+1. [Configuration](#configuration)
+    1. [Overriding rules](#overriding-rules)
+
+<!-- /MarkdownTOC -->
+
 # `@geniemouse/prettier-config`
 
 Keep project code formatting consistent across projects with [Prettier] and this base configuration.
@@ -36,7 +44,20 @@ Reference the configuration package in your project's `package.json` file:
 }
 ```
 
-These imported settings can be overridden by a [Prettier configuration file] added to your project root directory.
+**NOTE:**
+This method does not offer a way to extend the shared configuration. To do that, see the "Overriding rules" section below.
+
+### Overriding rules
+
+If you need to override some properties from this shared configuration, import it in a `prettierrc.js` file and export the modifications:
+
+```javascript
+module.exports = {
+    ...require("@geniemouse/prettier-config"),
+    // Shared Prettier configuration rule overrides...
+    semi: false
+};
+```
 
 <!-- LINK REFERENCES -->
 
