@@ -1,4 +1,13 @@
-# Change Log
+# Change log
+
+## 1.1.3 (2019-05-27)
+
+-   [db2c56d](https://github.com/geniemouse/prettier-config/commit/db2c56d) Add tests and lint script commands
+-   [dff79e4](https://github.com/geniemouse/prettier-config/commit/dff79e4) Update README: add TOC & how-to override rules sections
+-   [1a821a5](https://github.com/geniemouse/prettier-config/commit/1a821a5) Update Prettier config: simplify config file regex; remove YAML settings
+-   [30819b6](https://github.com/geniemouse/prettier-config/commit/30819b6) Add 'files' prop to package.json for package inclusion (alternative t…
+-   [20bca60](https://github.com/geniemouse/prettier-config/commit/20bca60) Add .gitignore file
+-   [09c8a30](https://github.com/geniemouse/prettier-config/commit/09c8a30) Remove .npmignore file
 
 ## 1.1.2 (2019-05-22)
 
