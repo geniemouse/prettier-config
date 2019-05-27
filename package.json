@@ -3,10 +3,10 @@
   "version": "1.1.2",
   "description": "Shared Prettier configuration settings",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/geniemouse/prettier-config.git"
-  },
+  "scripts": {},
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "config",
     "configuration",
@@ -22,6 +22,10 @@
     "url": "https://geniemouse.com"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geniemouse/prettier-config.git"
+  },
   "bugs": {
     "url": "https://github.com/geniemouse/prettier-config/issues"
   },
