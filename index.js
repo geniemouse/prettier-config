@@ -30,21 +30,27 @@ module.exports = {
 
     // Overriding configurations on a per file/file-type basis
     overrides: [
+        // Be strict about configuration files output
+        // esp. package.json; keep in-sync with npm style
         {
-            files: [".eslintrc", ".htmllintrc", ".prettierrc", ".stylelintrc", "*.json"],
+            files: [".*rc", "package.json"],
             options: {
-                parser: "json",
-                requirePragma: false,
+                parser: "json-stringify",
+                requirePragma: false, // Would not be valid JSON anyway
                 tabWidth: 2,
                 trailingComma: "none"
             }
         },
+
+        // Don't want so much whitespace in data files...
         {
-            files: ["*.yaml", "*.yml"],
+            files: ["*.json"],
+            excludeFiles: [".*rc", "package.json"],
             options: {
-                parser: "yaml",
-                requirePragma: false,
-                tabWidth: 2
+                parser: "json",
+                requirePragma: false, // Would not be valid JSON anyway
+                tabWidth: 2,
+                trailingComma: "none"
             }
         }
     ]
