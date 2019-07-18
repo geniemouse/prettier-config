@@ -4,4 +4,4 @@
 # -- https://www.git-scm.com/docs/gitattributes
 
 # Ensure that all text files (from any contributor) have their line-endings normalized
-* text=auto
+* text=auto eol=lf
