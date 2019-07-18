@@ -1,5 +1,9 @@
 # Change log
 
+## 1.1.4 (2019-07-18)
+
+-   [7b002a5](https://github.com/geniemouse/prettier-config/commit/7b002a5) Update `yarn.lock` file package dependencies
+
 ## 1.1.3 (2019-05-27)
 
 -   [db2c56d](https://github.com/geniemouse/prettier-config/commit/db2c56d) Add tests and lint script commands
