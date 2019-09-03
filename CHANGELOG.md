@@ -1,5 +1,9 @@
 # Change log
 
+## 1.1.5 (2019-09-03)
+
+-   [77af4df](https://github.com/geniemouse/prettier-config/commit/77af4df) Update `yarn.lock` file package dependencies
+
 ## 1.1.4 (2019-07-18)
 
 -   [7b002a5](https://github.com/geniemouse/prettier-config/commit/7b002a5) Update `yarn.lock` file package dependencies
